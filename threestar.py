@@ -21,7 +21,7 @@ headers = {"User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9
            "Accept-Language": "en-us",
            "Connection": "keep-alive",
            "Accept-Charset": "GB2312,utf-8;q=0.7,*;q=0.7",
-           "Cookie": "PHPSESSID=85brk17vm3vl81eav5jj3rghc5; the_cookie=1; shuidiV=1; userAccount=17761715530; userHit=true; cGlobal[authID]=5258215; cGlobal[authTime]=1607831077; cGlobal[times]=1; ckurl.lezhuan.com=%2Ffast%2F; cGlobal[last]=1607837630"}
+           "Cookie": "【请输入你的cookie信息】"}
 for i in range(1, int(xxx)):
     purl.append("https://www.lezhuan.com/fast/?p=" + str(i))
 for x in range(len(purl)):
