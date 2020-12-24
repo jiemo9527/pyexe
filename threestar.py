@@ -14,6 +14,7 @@ num_li = []
 stime_li = []
 sta = []
 total = []
+Cookie_input=input("请输入Cookie信息：")
 xxx = input("请输入当前网站期号页最大值【1-120】：")
 
 headers = {"User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.1.6) ",
@@ -21,7 +22,7 @@ headers = {"User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9
            "Accept-Language": "en-us",
            "Connection": "keep-alive",
            "Accept-Charset": "GB2312,utf-8;q=0.7,*;q=0.7",
-           "Cookie": "【请输入你的cookie信息】"}
+           "Cookie": Cookie_input}
 for i in range(1, int(xxx)):
     purl.append("https://www.lezhuan.com/fast/?p=" + str(i))
 for x in range(len(purl)):
