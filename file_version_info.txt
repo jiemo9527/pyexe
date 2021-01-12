@@ -27,10 +27,10 @@ VSVersionInfo(
       StringTable(
         u'080404b0',
         [StringStruct(u'CompanyName', u'none'),
-        StringStruct(u'FileDescription', u'急速3星数据统计'),
+        StringStruct(u'FileDescription', u'getproxy'),
         StringStruct(u'FileVersion', u'1.0'),
         StringStruct(u'LegalCopyright', u'(C) 芥默 2020. All Rights Reserved'),
-        StringStruct(u'ProductName', u'急速3星数据统计'),
+        StringStruct(u'ProductName', u'getproxy'),
         StringStruct(u'ProductVersion', u'1.0')])
       ]), 
     VarFileInfo([VarStruct(u'Translation', [2052, 1200])])
