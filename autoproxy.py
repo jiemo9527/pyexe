@@ -23,6 +23,7 @@ def setproxy(enable,proxyIp):
     hKey = winreg.OpenKey(winreg.HKEY_CURRENT_USER, KEY_XPATH, 0, winreg.KEY_WRITE)
     winreg.SetValueEx(hKey, KEY_ProxyEnable, 0, winreg.REG_DWORD, enable)
     winreg.SetValueEx(hKey, KEY_ProxyServer, 0, winreg.REG_SZ, proxyIp)
+    winreg.SetValueEx(hKey, KEY_ProxyOverride, 0, winreg.REG_SZ, "localhost")
     winreg.CloseKey(hKey)
 
 
