@@ -28,11 +28,7 @@ def setproxy(enable,proxyIp):
 
 
 if __name__ == '__main__':
-    open=input("是否打开浏览器http://zhimaruanjian.com/getapi/领取免费ip？(y/n):")
-    if open=="y":
-        print("完成领取后复制API地址，关闭网页以继续....")
-        os.system('"chrome" h.zhimaruanjian.com/getapi/')
-    API_Url=input("请输入API接入地址：")
+    API_Url=input("请输入芝麻代理或西拉代理API地址：")
     print("\n\n\n 0 : 清除代理 \n 1 : 设置代理(重复设置将刷新获取)\n -1 ： 退出程序\n\n\n")
     while True:
         enable=input("请输入指令：")

@@ -30,7 +30,7 @@ VSVersionInfo(
         StringStruct(u'FileDescription', u'自动切换windows代理设置'),
         StringStruct(u'FileVersion', u'1.0'),
         StringStruct(u'LegalCopyright', u'(C) 芥默 2020. All Rights Reserved'),
-        StringStruct(u'ProductName', u'自动切换windows代理设置'),
+        StringStruct(u'ProductName', u'切换代理[输入API版]'),
         StringStruct(u'ProductVersion', u'1.0')])
       ]), 
     VarFileInfo([VarStruct(u'Translation', [2052, 1200])])
