@@ -28,7 +28,7 @@ def setproxy(enable,proxyIp):
 
 
 if __name__ == '__main__':
-    API_Url=input("请输入芝麻代理或西拉代理API地址：")
+    API_Url=input("请输入芝麻/蘑菇/西拉代理API地址（设置提取数量为1个）：")
     print("\n\n\n 0 : 清除代理 \n 1 : 设置代理(重复设置将刷新获取)\n -1 ： 退出程序\n\n\n")
     while True:
         enable=input("请输入指令：")
