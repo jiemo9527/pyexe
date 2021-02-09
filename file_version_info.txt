@@ -27,10 +27,10 @@ VSVersionInfo(
       StringTable(
         u'080404b0',
         [StringStruct(u'CompanyName', u'none'),
-        StringStruct(u'FileDescription', u'自动切换windows代理设置'),
+        StringStruct(u'FileDescription', u'quick_CFST'),
         StringStruct(u'FileVersion', u'1.0'),
         StringStruct(u'LegalCopyright', u'(C) 芥默 2020. All Rights Reserved'),
-        StringStruct(u'ProductName', u'切换代理[输入API版]'),
+        StringStruct(u'ProductName', u'快速自定义自选ip'),
         StringStruct(u'ProductVersion', u'1.0')])
       ]), 
     VarFileInfo([VarStruct(u'Translation', [2052, 1200])])
