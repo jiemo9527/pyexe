@@ -27,10 +27,10 @@ VSVersionInfo(
       StringTable(
         u'080404b0',
         [StringStruct(u'CompanyName', u'none'),
-        StringStruct(u'FileDescription', u'auto_CFST'),
+        StringStruct(u'FileDescription', u'检查监控设备是否离线'),
         StringStruct(u'FileVersion', u'1.0'),
         StringStruct(u'LegalCopyright', u'(C) 芥默 2020. All Rights Reserved'),
-        StringStruct(u'ProductName', u'自动更换优选ip'),
+        StringStruct(u'ProductName', u'check_online'),
         StringStruct(u'ProductVersion', u'1.0')])
       ]), 
     VarFileInfo([VarStruct(u'Translation', [2052, 1200])])
