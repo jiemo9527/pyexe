@@ -20,24 +20,16 @@ print("获取优选ip("+cfst_ip+")成功.\n")
 
 change_dns=cfst_ip+"		"
 
-def lastline():
-# 删除最后一行
+def clearline():
+# 删除旧记录
     host_path="C:\WINDOWS\system32\drivers\etc\HOSTS"
-    hosts= open(host_path, 'rb+')
-    line = hosts.readline()
-    pos = [0, hosts.tell()]
-    while line != b'':
-        line = hosts.readline()
-        temp = hosts.tell()
-        if temp != pos[1]:
-            pos[0] = pos[1]
-            pos[1] = temp
-    hosts.seek(pos[0], 0)
-    hosts.truncate()
-    hosts.close()
-lastline()
-lastline()
+    lines=open(host_path,'r').readlines()
+    hosts= open(host_path, 'w')
+    for i in lines:
+       if 'cdnets.cyou' not in i:
+          hosts.write(i)
 print("已清除旧的dns记录.\n")
+clearline()
 def addline(change_dns):
 #插入新的dns记录
     host_path="C:\WINDOWS\system32\drivers\etc\HOSTS"
@@ -45,6 +37,5 @@ def addline(change_dns):
     hosts.write(change_dns)
     hosts.close()
     print("新增dns记录成功.\n")
-addline(change_dns+"rn.cdnets.cyou\n")
-addline(change_dns+"ww.cdnets.cyou")
+addline(change_dns+"rn.cdnets.cyou\n"+change_dns+"ww.cdnets.cyou")
 os.system('pause')
